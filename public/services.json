@@ -1,0 +1,87 @@
+[
+    {
+        "img": "https://i.ibb.co/8rkXvYY/General-dentistry.jpg",
+        "_id": "ser1",
+        "name": "General dentistry",
+        "description": "Diagnosis and treatment of oral diseases and their complications, elimination.",
+        "price": "$100"
+    },
+    
+    {
+        "img": "https://i.ibb.co/VgbNfm4/Esthetic-dentistry.jpg",
+        "_id": "ser2",
+        "name": "Esthetic dentistry",
+        "description": "Aesthetic dentistry procedures can help you to get a perfect smile: whitening, building chips and teeth.",
+        "price": "$120"
+    },
+    {
+        "img": "https://i.ibb.co/JtrVZQs/Orthodontics.jpg",
+        "_id": "ser3",
+        "name": "Orthodontics",
+        "description": "The main object of treatment is a wrong bite. It can be corrected with the help of bracket systems.",
+        "price": "$150"
+    },
+    {
+        "img": "https://i.ibb.co/4sqvCbX/Implant-dentistry.jpg",
+        "_id": "ser4",
+        "name": "Implant dentistry",
+        "description": "The procedure for implant implantation in bone tissue, which is later put abutment and crown.",
+        "price": "$160"
+    },
+    {
+        "img": "https://i.ibb.co/2qvyFhT/Surgery.jpg",
+        "_id": "ser5",
+        "name": "Surgery",
+        "description": "Removal of the tooth, as well as emergency care for serious inflammatory diseases of the oral.",
+        "price": "$180"
+    },
+    {
+        "img": "https://i.ibb.co/RghvbzT/Periodontics.jpg",
+        "_id": "ser6",
+        "name": "Periodontics",
+        "description": "It implies the prevention and treatment of various periodontal diseases – tissues that surround.",
+        "price": "$200"
+    },
+    {
+        "img": "https://i.ibb.co/K56bMJ2/Cosmetic-Dentistry.jpg",
+        "_id": "ser7",
+        "name": "Cosmetic Dentistry",
+        "description": "Competently plagiarize goal-oriented deliverables after cross-media human capital.",
+        "price": "$220"
+    },
+    {
+        "img": "https://i.ibb.co/Mk53M2g/Cleanings-Prevention.jpg",
+        "_id": "ser8",
+        "name": "Cleanings & Prevention",
+        "description": "Competently plagiarize goal-oriented deliverables after cross-media",
+        "price": "$250"
+    },
+    {
+        "img": "https://i.ibb.co/k6rhmXR/Restoring-Teeth.jpg",
+        "_id": "ser9",
+        "name": "Restoring Teeth",
+        "description": "Competently plagiarize goal-oriented deliverables after cross-media human capital",
+        "price": "$300"
+    },
+    {
+        "img": "https://i.ibb.co/VBG2Z9v/Invisalign.jpg",
+        "_id": "ser10",
+        "name": "Invisalign",
+        "description": "Competently plagiarize goal-oriented deliverables after cross-media human capital",
+        "price": "$170"
+    },
+    {
+        "img": "https://i.ibb.co/1M83L5W/Prosthodontics.jpg",
+        "_id": "ser11",
+        "name": "Prosthodontics",
+        "description": "Competently plagiarize goal-oriented deliverables after cross-media human capital",
+        "price": "$350"
+    },
+    {
+        "img": "https://i.ibb.co/51DJRX2/Dental-Implants.jpg",
+        "_id": "ser12",
+        "name": "Dental Implants",
+        "description": "Competently plagiarize goal-oriented deliverables after cross-media human capital",
+        "price": "$380"
+    }
+]

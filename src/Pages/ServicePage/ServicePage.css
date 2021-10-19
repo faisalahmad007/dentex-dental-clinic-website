@@ -1,0 +1,19 @@
+.service-area{
+    background-color: gray;
+    padding: 40px;
+    margin: 20px;
+}
+.card-area{
+    margin-top: 20px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+
+}
+.card-area:hover{
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+    transform: scale(1.1);
+}
+.card-line{
+    color: #000;
+    font-size: 12px;
+}

@@ -1,0 +1,77 @@
+{
+    "service":[
+        {
+        "img": "https://i.ibb.co/8rkXvYY/General-dentistry.jpg",
+        "description": "Diagnosis and treatment of oral diseases and their complications",
+        "cost": "$100",
+        "_id": "ser1"
+    },
+    {
+        "img": "https://i.ibb.co/VgbNfm4/Esthetic-dentistry.jpg",
+        "description": "Aesthetic dentistry procedures can help you to get a perfect smile: whitening, building chips and teeth.",
+        "cost": "$120",
+        "_id": "ser2"
+    },
+    {
+        "img": "https://i.ibb.co/JtrVZQs/Orthodontics.jpg",
+        "description": "The main object of treatment is a wrong bite. It can be corrected with the help of bracket systems.",
+        "cost": "$150",
+        "_id": "ser3"
+    },
+    {
+        "img": "https://i.ibb.co/4sqvCbX/Implant-dentistry.jpg",
+        "description": "The procedure for implant implantation in bone tissue, which is later put abutment and crown.",
+        "cost": "$160",
+        "_id": "ser4"
+    },
+    {
+        "img": "https://i.ibb.co/2qvyFhT/Surgery.jpg",
+        "description": "Removal of the tooth, as well as emergency care for serious inflammatory diseases of the oral.",
+        "cost": "$180",
+        "_id": "ser5"
+    },
+    {
+        "img": "https://i.ibb.co/RghvbzT/Periodontics.jpg",
+        "description": "It implies the prevention and treatment of various periodontal diseases – tissues that surround.",
+        "cost": "$200",
+        "_id": "ser6"
+    },
+    {
+        "img": "https://i.ibb.co/K56bMJ2/Cosmetic-Dentistry.jpg",
+        "description": "Competently plagiarize goal-oriented deliverables after cross-media human capital.",
+        "cost": "$220",
+        "_id": "ser7"
+    },
+    {
+        "img": "https://i.ibb.co/Mk53M2g/Cleanings-Prevention.jpg",
+        "description": "Competently plagiarize goal-oriented deliverables after cross-media",
+        "cost": "$250",
+        "_id": "ser8"
+    },
+    {
+        "img": "https://i.ibb.co/k6rhmXR/Restoring-Teeth.jpg",
+        "description": "Competently plagiarize goal-oriented deliverables after cross-media human capital",
+        "cost": "$300",
+        "_id": "ser9"
+    },
+    {
+        "img": "https://i.ibb.co/VBG2Z9v/Invisalign.jpg",
+        "description": "Competently plagiarize goal-oriented deliverables after cross-media human capital",
+        "cost": "$170",
+        "_id": "ser10"
+    },
+    {
+        "img": "https://i.ibb.co/1M83L5W/Prosthodontics.jpg",
+        "description": "Competently plagiarize goal-oriented deliverables after cross-media human capital",
+        "cost": "$350",
+        "_id": "ser11"
+    },
+    {
+        "img": "https://i.ibb.co/51DJRX2/Dental-Implants.jpg",
+        "description": "Competently plagiarize goal-oriented deliverables after cross-media human capital",
+        "cost": "$380",
+        "_id": "ser12"
+    }
+
+    ]
+}

@@ -1,0 +1,38 @@
+.area-details{
+    margin-top: 10px;
+   
+}
+.nav-area{
+    text-decoration: none;
+    color:#222;
+}
+.nav-area:hover{
+    color:#222;
+}
+.nav-area a{
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15px 20px;
+    
+    font-size:15px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.nav-area a:before{
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transform: scaleY(2);
+    transition: 0.5s;
+    border-top: 2px solid darkcyan ;
+    border-bottom: 2px solid darkcyan;
+}
+.nav-area a:hover:before{
+   transform: scaleY(1.2);
+   opacity: 1;
+}
