@@ -11,8 +11,9 @@ import Register from './Pages/Register/Register';
 import PrivateRoute from './Pages/PrivateRoute/PrivateRoute';
 import AboutUs from './Pages/AboutUs/AboutUs';
 import Footer from './Pages/Footer/Footer';
-import DentalClinic from './Pages/DentalClinic/DentalClinic';
-import OurTeam from './OurTeam/OurTeam';
+import Payment from './Pages/Payment/Payment';
+import OurTeam from './Pages/OurTeam/OurTeam';
+
 
 
 function App() {
@@ -34,17 +35,17 @@ function App() {
               <ServicePage></ServicePage>
 
             </Route>
-            <Route  path="/aboutus">
+            <Route exact path="/aboutus">
               <AboutUs></AboutUs>
             </Route>
             
             <PrivateRoute exact path="/servicepage/:_id">
               <SingleService></SingleService>
             </PrivateRoute>
-            <PrivateRoute exact path="/dentalclinic">
-              <DentalClinic></DentalClinic>
+            <PrivateRoute exact path="/payment">
+              <Payment></Payment>
             </PrivateRoute>
-            <PrivateRoute exact path="/ourteam">
+            <PrivateRoute exact path="/dentalteam">
               <OurTeam></OurTeam>
             </PrivateRoute>
             
@@ -53,12 +54,12 @@ function App() {
               <Login></Login>
 
             </Route>
-            <Route path="/register">
+            <Route exact path="/register">
               <Register></Register>
 
             </Route>
 
-            <Route path="*">
+            <Route exact path="*">
              <NotFound></NotFound>
               </Route> 
          </Switch>

@@ -1,7 +1,4 @@
-  .heading-area{
-      text-align: center;
-  }
-  .container {
+.container {
     position: relative;
     width: 350px;
     height: 500px;
@@ -52,4 +49,3 @@
      text-decoration: none;
  }
   
- 

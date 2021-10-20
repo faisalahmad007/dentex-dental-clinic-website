@@ -1,4 +1,5 @@
 const firebaseConfig = {
+  
   apiKey: "AIzaSyD97O13kzfeHrNBNd2p1OT3l-AYLjnZDus",
   authDomain: "dentex-dental-clinic.firebaseapp.com",
   projectId: "dentex-dental-clinic",

@@ -3,20 +3,18 @@ import { Col, Container, Row } from 'react-bootstrap';
 import './Footer.css';
 const Footer = () => {
     return (
-        <div>
              
-    <Container fluid>
-      <Row>
-    <Col className="text-center footer-site">
-        
+    <div className="container-fluid">
+      <div className="row">
+    <div className="col-md-12 col-sm-12" >
+     <div id="footer" className="text-center footer-site">  
           <p >Copyright &copy; 2017 All Rights Reserved by 
-      <p>Faisal Ahmad</p>
-          </p>
-
-     </Col>
-      </Row>
-    </Container>
-        </div>
+               <p>Faisal Ahmad</p>
+          </p> 
+          </div> 
+     </div>
+      </div>
+    </div>
     );
 };
 

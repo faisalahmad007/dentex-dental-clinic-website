@@ -27,7 +27,7 @@ const SingleService = () => {
         <Container>
          <Row>
          
-         <Col md={8} >
+         <Col md={8} sm={12}>
            
             <Card style={{ width: '20rem', marginLeft:'20rem' }}>
             <Card.Img variant="top" src={singleService?.img} alt="displayimage"/>

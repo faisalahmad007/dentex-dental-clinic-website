@@ -30,8 +30,8 @@ const Banner = () => {
         />
 
         <Carousel.Caption>
-        <h3>Second slide label</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <h3 style={{color:'black'}}>Enjoy your new dazzling smile</h3>
+        <p>Any dental practice that offers patients a more relaxing experience.</p>
         </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -42,8 +42,8 @@ const Banner = () => {
     />
 
     <Carousel.Caption>
-      <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      <h3>Best Dental Clinic in the World</h3>
+      <p>Any dental practice that offers patients a more relaxing experience</p>
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
@@ -51,14 +51,18 @@ const Banner = () => {
 <Col sm={5}>
             <div className="inputs">
                 <input type="text" className="form-control" placeholder="Patient Name" />
-                <input type="phone" className="form-control" placeholder="Mobile Number"/>
-                <input type="address" className="form-control" placeholder="Address"/>
-                <input type="age" className="form-control" placeholder="Age"/>
-                
-            </div>
-            
-                <button >Booking</button>
                 <br/>
+                <input type="phone" className="form-control" placeholder="Mobile Number"/>
+                <br/>
+                <input type="address" className="form-control" placeholder="Address"/>
+                <br/>
+                <input type="age" className="form-control" placeholder="Age"/>
+                <br/>
+            </div>
+            <div>
+                <button style={{backgroundColor:'darkCyan'}} >Booking</button>
+               
+                </div>
                 
 </Col>
 </Row>

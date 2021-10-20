@@ -1,15 +1,41 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import login from '../../images/login.png';
 import useAuth from '../hooks/useAuth';
-import { Link} from 'react-router-dom';
+import { Link,useLocation,useHistory} from 'react-router-dom';
 import "./Login.css";
 
 
-
 const Login = () => {
-    const{ signInUsingGoogle, user}  = useAuth();
-   
+    const{ signInUsingGoogle,handleUserLogin,error,user}  = useAuth();
+    
+    const location = useLocation();
+    const history = useHistory();
+    const[email,setEmail] = useState('');
+    const redirect_url = location.state?.from || '/payment';
+    const[password,setPassword] = useState('');
+
+
+    const handleGoogleLogin = ()=> {
+        signInUsingGoogle()
+        .then(result => {
+            
+            history.push(redirect_url);
+        })
+    }
+
+    const handleEmailChange = (event) => {
+        setEmail(event.target.value);
+        console.log(email);
+   }
+   const handlePasswordChange = (event) => {
+       setPassword(event.target.value);
+  }
+  const handleLogin = () => {
+    handleUserLogin(email, password);
+  };
+
+
     return (
         <div className="">
         <div className="heading-area">
@@ -20,14 +46,18 @@ const Login = () => {
              <Row>
             <Col md={7}>
             <div className="inputs">
-                <input type="email" className="form-control" placeholder="email" />
-                <input type="password" className="form-control" placeholder="Password"/>
-                <input type="Submit" value="Log In"/>
-            </div>
-            
-                <button onClick={signInUsingGoogle}>Google Login</button>
+                <input onChange={handleEmailChange} type="email" placeholder="email" />
+                <input onChange={handlePasswordChange} type="password" placeholder="Password"/>
                 <br/>
-                <Link className="btn btn-primary"to="/register">New User?</Link>
+               
+            
+            <button onClick={handleLogin} style={{backgroundColor:'darkCyan'}}>Login</button>
+            <br/>
+           
+                <button onClick={handleGoogleLogin} style={{backgroundColor:'darkCyan'}}>Google Login</button>
+                </div>
+                <br/>
+                <Link className="btn" style={{backgroundColor:'darkCyan'}} to="/register">New User</Link>
 
           
             </Col>

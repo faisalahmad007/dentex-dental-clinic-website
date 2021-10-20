@@ -8,19 +8,19 @@ const ServicePage = () => {
     const [services,setServices] = useState([]);
     useEffect(()=> {
        
-        fetch('./services.json')
+        fetch('/services.json')
         .then(res=>res.json())
         .then(data =>setServices(data))
     },[])
     return (
     <div className="">
-        <h2 className="text-center service-area ">Our Services</h2>
+        
     
        
-     <Container>
-     
-       <Row xs={1} md={3} className="g-4"> 
-       
+     <Container fluid>
+     <h2 className="text-center service-area ">Our Services</h2>
+       <Row xs={1} md={3} className="g-4">
+        
         {
             services.map(service =>
           <CardGroup key={service._id}>
@@ -31,17 +31,18 @@ const ServicePage = () => {
           <Card.Text style={{ fontSize: '1rem' }} >
                     Service Name: {service.name}
           </Card.Text>
-         <Button variant="danger" className="button-color">
+         <Button variant="danger" style={{backgroundColor:'darkCyan'}}>
              <NavLink style={{ textDecoration: 'none', color: 'black'}}
               to={`/servicepage/${service?._id}`}
-             >Service Details</NavLink></Button>
+             >See More</NavLink></Button>
          </Card.Body>
          </Card>
          </CardGroup>   
              )
         }
+    
     </Row> 
-    </Container> 
+    </Container>
     </div>
     );
 };
